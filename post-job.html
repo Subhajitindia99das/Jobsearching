@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Post a Job - Job Portal</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="jobs.html">Browse Jobs</a>
+    <a href="upload.html">Upload Resume</a>
+    <a href="post-job.html">Post a Job</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<header>
+  <h1>Post a Job</h1>
+</header>
+  <div class="container">
+    <img src="images/postjob.jpg" alt="Post Job Illustration" style="width:100%; border-radius:8px; margin-bottom:20px;" />
+
+    <div class="card">
+      <form>
+        <label for="company">Company Name:</label>
+        <input type="text" id="company" placeholder="e.g. PixelTech Pvt. Ltd." required />
+
+        <label for="title">Job Title:</label>
+        <input type="text" id="title" placeholder="e.g. Frontend Developer" required />
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" placeholder="e.g. Bengaluru, India" required />
+
+        <label for="salary">Salary Range (Optional):</label>
+        <input type="text" id="salary" placeholder="e.g. ₹4–6 LPA" />
+
+        <label for="description">Job Description:</label>
+        <textarea id="description" placeholder="Enter job responsibilities and expectations..." rows="4" required></textarea>
+
+        <label for="requirements">Requirements:</label>
+        <textarea id="requirements" placeholder="List required skills and qualifications..." rows="4" required></textarea>
+
+        <button type="submit">Submit Job</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Job Portal. All rights reserved.
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
